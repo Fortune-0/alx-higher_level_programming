@@ -1,20 +1,31 @@
 #!/usr/bin/python3
-def list_division(my_list_1, my_list_2, list_length):
-    div = []
-    temp_result = 0
-    for i in range(0, list_length):
-        try:
-            temp_result = my_list_1[i] / my_list_2[i]
-        except TypeError:
-            temp_result = 0
-            print("wrong type")
-        except ZeroDivisionError:
-            temp_result = 0
-            print("division by 0")
-        except IndexError:
-            temp_result = 0
-            print("out of range")
-        finally:
-            pass
-        div.append(temp_result)
-    return 
+""" define a class Square """
+
+
+class Square:
+    """ define __init__ function """
+    def __init__(self, size=0):
+        """ initializes size of self with size """
+        self.size = size
+
+    @property
+    def size(self):
+        """ returns __size of self """
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        """ if statement """
+        if type(value) is not int:
+            """ raise error """
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            """ raise error """
+            raise ValueError("size must be >= 0")
+        else:
+            """ initialize """
+            self.__size = value
+    """ defines area function """
+    def area(self):
+        """ returns area """
+        return self.__size ** 2
