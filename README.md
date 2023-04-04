@@ -1,2 +1,2 @@
-Python Programming language
-alx-higher_level_programming
+Hello Python 
+Author by: FORTUNE PETER
