@@ -23,6 +23,8 @@ int reverse_listint(listint_t **head)
 	}
 
 	*head = prev;
+
+	return (1);
 }
 
 /**
