@@ -1,0 +1,526 @@
+Trying:
+    add_integer = __import__('0-add_integer').add_integer
+Expecting nothing
+ok
+Trying:
+    add_integer(1, 2)
+Expecting:
+    3
+**********************************************************************
+File "./tests/0-add_integer.txt", line 11, in 0-add_integer.txt
+Failed example:
+    add_integer(1, 2)
+Expected:
+    3
+Got:
+    11
+Trying:
+    add_integer(100, -2)
+Expecting:
+    98
+**********************************************************************
+File "./tests/0-add_integer.txt", line 15, in 0-add_integer.txt
+Failed example:
+    add_integer(100, -2)
+Expected:
+    98
+Got:
+    11
+Trying:
+    add_integer(2.1)
+Expecting:
+    100
+**********************************************************************
+File "./tests/0-add_integer.txt", line 19, in 0-add_integer.txt
+Failed example:
+    add_integer(2.1)
+Expected:
+    100
+Got:
+    11
+Trying:
+    add_integer(100.3, -2)
+Expecting:
+    98
+**********************************************************************
+File "./tests/0-add_integer.txt", line 23, in 0-add_integer.txt
+Failed example:
+    add_integer(100.3, -2)
+Expected:
+    98
+Got:
+    11
+Trying:
+    add_integer(4, "School")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+ok
+Trying:
+    add_integer(None)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer('1', 1)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer('2', '1')
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer((1, 1))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer(123, [])
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+ok
+Trying:
+    add_integer("Hello")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer(2.9, 2.9)
+Expecting:
+    4
+**********************************************************************
+File "./tests/0-add_integer.txt", line 69, in 0-add_integer.txt
+Failed example:
+    add_integer(2.9, 2.9)
+Expected:
+    4
+Got:
+    11
+Trying:
+    add_integer(-1)
+Expecting:
+    97
+**********************************************************************
+File "./tests/0-add_integer.txt", line 73, in 0-add_integer.txt
+Failed example:
+    add_integer(-1)
+Expected:
+    97
+Got:
+    11
+Trying:
+    add_integer(float('inf'), 0)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(float('inf'), float('-inf'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(0, float('nan'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    ValueError: cannot convert float NaN to integer
+ok
+**********************************************************************
+1 items had failures:
+   6 of  17 in 0-add_integer.txt
+17 tests in 1 items.
+11 passed and 6 failed.
+***Test Failed*** 6 failures.
+Trying:
+    add_integer = __import__('0-add_integer').add_integer
+Expecting nothing
+ok
+Trying:
+    add_integer(1, 2)
+Expecting:
+    3
+**********************************************************************
+File "./tests/0-add_integer.txt", line 11, in 0-add_integer.txt
+Failed example:
+    add_integer(1, 2)
+Expected:
+    3
+Got:
+    11
+Trying:
+    add_integer(100, -2)
+Expecting:
+    98
+**********************************************************************
+File "./tests/0-add_integer.txt", line 15, in 0-add_integer.txt
+Failed example:
+    add_integer(100, -2)
+Expected:
+    98
+Got:
+    11
+Trying:
+    add_integer(2.1)
+Expecting:
+    100
+**********************************************************************
+File "./tests/0-add_integer.txt", line 19, in 0-add_integer.txt
+Failed example:
+    add_integer(2.1)
+Expected:
+    100
+Got:
+    11
+Trying:
+    add_integer(100.3, -2)
+Expecting:
+    98
+**********************************************************************
+File "./tests/0-add_integer.txt", line 23, in 0-add_integer.txt
+Failed example:
+    add_integer(100.3, -2)
+Expected:
+    98
+Got:
+    11
+Trying:
+    add_integer(4, "School")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+ok
+Trying:
+    add_integer(None)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer('1', 1)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer('2', '1')
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer((1, 1))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer(123, [])
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+ok
+Trying:
+    add_integer("Hello")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+ok
+Trying:
+    add_integer(2.9, 2.9)
+Expecting:
+    4
+**********************************************************************
+File "./tests/0-add_integer.txt", line 69, in 0-add_integer.txt
+Failed example:
+    add_integer(2.9, 2.9)
+Expected:
+    4
+Got:
+    11
+Trying:
+    add_integer(-1)
+Expecting:
+    97
+**********************************************************************
+File "./tests/0-add_integer.txt", line 73, in 0-add_integer.txt
+Failed example:
+    add_integer(-1)
+Expected:
+    97
+Got:
+    11
+Trying:
+    add_integer(float('inf'), 0)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(float('inf'), float('-inf'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(0, float('nan'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    ValueError: cannot convert float NaN to integer
+ok
+**********************************************************************
+1 items had failures:
+   6 of  17 in 0-add_integer.txt
+17 tests in 1 items.
+11 passed and 6 failed.
+***Test Failed*** 6 failures.
+Trying:
+    add_integer = __import__('0-add_integer').add_integer
+Expecting nothing
+ok
+Trying:
+    add_integer(1, 2)
+Expecting:
+    3
+ok
+Trying:
+    add_integer(100, -2)
+Expecting:
+    98
+ok
+Trying:
+    add_integer(2.1)
+Expecting:
+    100
+ok
+Trying:
+    add_integer(100.3, -2)
+Expecting:
+    98
+ok
+Trying:
+    add_integer(4, "School")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 27, in 0-add_integer.txt
+Failed example:
+    add_integer(4, "School")
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[5]>", line 1, in <module>
+        add_integer(4, "School")
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer(None)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 33, in 0-add_integer.txt
+Failed example:
+    add_integer(None)
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[6]>", line 1, in <module>
+        add_integer(None)
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer('1', 1)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 39, in 0-add_integer.txt
+Failed example:
+    add_integer('1', 1)
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[7]>", line 1, in <module>
+        add_integer('1', 1)
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer('2', '1')
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 45, in 0-add_integer.txt
+Failed example:
+    add_integer('2', '1')
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[8]>", line 1, in <module>
+        add_integer('2', '1')
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer((1, 1))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 51, in 0-add_integer.txt
+Failed example:
+    add_integer((1, 1))
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[9]>", line 1, in <module>
+        add_integer((1, 1))
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer(123, [])
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 57, in 0-add_integer.txt
+Failed example:
+    add_integer(123, [])
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: b must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[10]>", line 1, in <module>
+        add_integer(123, [])
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer("Hello")
+Expecting:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+**********************************************************************
+File "./tests/0-add_integer.txt", line 63, in 0-add_integer.txt
+Failed example:
+    add_integer("Hello")
+Expected:
+    Traceback (most recent call last):
+              ...
+    TypeError: a must be an integer
+Got:
+    Traceback (most recent call last):
+      File "/usr/lib/python3.8/doctest.py", line 1336, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 0-add_integer.txt[11]>", line 1, in <module>
+        add_integer("Hello")
+      File "/alx-higher_level_programming/0x07-python-test_driven_development/0-add_integer.py", line 17, in add_integer
+        raise TypeError("a must be an integer or b must be an integer")
+    TypeError: a must be an integer or b must be an integer
+Trying:
+    add_integer(2.9, 2.9)
+Expecting:
+    4
+ok
+Trying:
+    add_integer(-1)
+Expecting:
+    97
+ok
+Trying:
+    add_integer(float('inf'), 0)
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(float('inf'), float('-inf'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    OverflowError: cannot convert float infinity to integer
+ok
+Trying:
+    add_integer(0, float('nan'))
+Expecting:
+    Traceback (most recent call last):
+              ...
+    ValueError: cannot convert float NaN to integer
+ok
+**********************************************************************
+1 items had failures:
+   7 of  17 in 0-add_integer.txt
+17 tests in 1 items.
+10 passed and 7 failed.
+***Test Failed*** 7 failures.
