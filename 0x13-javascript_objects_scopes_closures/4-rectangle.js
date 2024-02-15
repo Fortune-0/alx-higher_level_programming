@@ -21,7 +21,7 @@ class Rectangle {
 	 // multiples the width and the height of the rectangle by 2
 	this.width *= 2;
 	 this.height *= 2;
-]
+ }
   print () {
     for (let i = 0; i < this.height; i++) {
       let myVar = '';
