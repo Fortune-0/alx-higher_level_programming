@@ -17,7 +17,7 @@ def list_states(username, password, database):
     
     # print the results 
     for row in rows:
-        print("{:<15}".format(row[0]))
+        print(row),
         
     # close the database and connection
     db.close()
